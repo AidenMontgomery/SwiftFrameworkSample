@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF014F6E1C4DDAC0005A35D1 /* SwiftLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DF014F6D1C4DDAC0005A35D1 /* SwiftLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF014F761C4DDACB005A35D1 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF014F751C4DDACB005A35D1 /* Logger.swift */; };
+		DF014F831C4DE5B7005A35D1 /* UserActivityLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF014F821C4DE5B7005A35D1 /* UserActivityLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		DF014F6D1C4DDAC0005A35D1 /* SwiftLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLogger.h; sourceTree = "<group>"; };
 		DF014F6F1C4DDAC0005A35D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF014F751C4DDACB005A35D1 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DF014F821C4DE5B7005A35D1 /* UserActivityLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				DF014F6D1C4DDAC0005A35D1 /* SwiftLogger.h */,
 				DF014F6F1C4DDAC0005A35D1 /* Info.plist */,
 				DF014F751C4DDACB005A35D1 /* Logger.swift */,
+				DF014F821C4DE5B7005A35D1 /* UserActivityLogger.swift */,
 			);
 			path = SwiftLogger;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF014F761C4DDACB005A35D1 /* Logger.swift in Sources */,
+				DF014F831C4DE5B7005A35D1 /* UserActivityLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 				DF014F741C4DDAC0005A35D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
