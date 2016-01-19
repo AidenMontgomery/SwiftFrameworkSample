@@ -8,6 +8,10 @@
 
 import Foundation
 
-public func Log(message: String) {
-    print(message)
+public class Logger {    
+    static let sharedInstance = Logger()
+    
+    public func Log(message: String) {
+        print(message)
+    }
 }
